@@ -14094,7 +14094,7 @@ const data5: Protocol[] = [
   {
     id: "7539",
     name: "Bitway Earn",
-    previousNames: ["Bitway"],
+    previousNames: ["Bitway"], 
     address: "bsc:0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
     symbol: "BTW",
     url: "https://bitway.com/",
