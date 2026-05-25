@@ -1721,6 +1721,7 @@ const data5: Protocol[] = [
     dimensions: {
        fees: "dipcoin-perps",
        derivatives: "dipcoin-perps",
+       "open-interest": "dipcoin-perps-oi"
     },
   },
   {
@@ -2422,6 +2423,9 @@ const data5: Protocol[] = [
     ],
     stablecoins: ["yuzu-usd"],
     listedAt: 1763085858,
+    dimensions: {
+      fees: "yuzu-money",
+    },
   },
   {
     id: "6998",
@@ -2791,6 +2795,9 @@ const data5: Protocol[] = [
     github: ["piku-co"],
     stablecoins: ["usp"],
     listedAt: 1763513599,
+    dimensions: {
+      fees: "piku",
+    },
   },
   {
     id: "7013",
@@ -2914,7 +2921,8 @@ const data5: Protocol[] = [
     dimensions: {
       derivatives: "antarctic",
       fees: "antarctic",
-      "open-interest": "antarctic",
+      "open-interest": "antarctic-oi",
+      "normalized-volume": "antarctic",
     },
   },
   {

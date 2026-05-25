@@ -2490,7 +2490,7 @@ const data4: Protocol[] = [
     symbol: "-",
     url: "https://superswap.ink/",
     description:
-      "SuperSwap is the first decentralized exchange (DEX) aggregator built on Ink, the Layer 2 blockchain developed by Kraken",
+      "SuperSwap is the gateway and trading layer for tokenized markets, unifying access to tokenized stocks, commodities, ETFs, currencies, bonds, and crypto across chains, issuers, and liquidity sources. Users can discover and trade assets through a single self-custodial interface with cross-chain execution, 24/7 markets, instant settlement, and permissionless global access. SuperSwap abstracts routing, bridging, issuer discovery, and onchain/offchain liquidity into one seamless trading experience",
     chain: "Ink",
     logo: `${baseIconsUrl}/superswap-ink.png`,
     audits: "0",
@@ -19686,7 +19686,8 @@ const data4: Protocol[] = [
       derivatives: {
         adapter: "carbon",
         genuineSpikes: [["2025-10-10", "-"]]
-      }
+      },
+      "open-interest": "carbon",
     }
   },
   {
@@ -20679,7 +20680,8 @@ const data4: Protocol[] = [
     listedAt: 1752859467,
     dimensions: {
       fees: "bluefin-pro",
-      derivatives: "bluefin-pro"
+      derivatives: "bluefin-pro",
+      "open-interest": "bluefin-pro"
     }
   },
   /* { // unified under coinbase-btc adapter
@@ -29046,7 +29048,8 @@ const data4: Protocol[] = [
     parentProtocol: "parent#grvt",
     dimensions: {
       derivatives: "grvt-perps",
-      "open-interest": "grvt-perps",
+      "open-interest": "grvt-perps-oi",
+      "normalized-volume": "grvt",
    }
   },
   {
